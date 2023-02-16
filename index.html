@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/main.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <title>BKAP</title>
+    <link rel="stylesheet" href="/ngovanvu.github.io/main.css" />
+    <link rel="stylesheet" href="/ngovanvu.github.io/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -17,25 +17,38 @@
   </head>
   <body>
     <header>
-      <div class="header">
+      <div>
         <div class="navigation">
-          <div class="logo__menu-mobile">
-            <i
-              class="fa-solid fa-bars"
-              onclick="document.querySelector('.menu').classList.toggle('active')"
-            ></i>
-            <img src="/image/logo-bkap-edu.png" alt="logo" />
+          <div class="menu-logo">
+            <div class="menuToggle"></div>
+            <div class="logo">
+              <img src="./image/logo-bkap-edu.png" alt="" />
+            </div>
           </div>
+
           <div class="menu">
             <ul>
               <li>TRANG CHỦ</li>
-              <li>BLOG CÔNG NGHỆ<i class="fa-solid fa-chevron-right"></i></li>
+              <li>BLOG CÔNG NGHỆ<i class="fa-solid fa-chevron-right"></i>
+                    <li class="menu-children">Tin Tức-Video</li>
+                    <li class="menu-children">Công Nghệ</li>
+              </li>
               <li>
                 VỀ BÁCH KHOA-APTEACH <i class="fa-solid fa-chevron-right"></i>
               </li>
               <li>CÁC KHÓA HỌC <i class="fa-solid fa-chevron-right"></i></li>
               <li>TUYỂN SINH</li>
               <li>HỌC VIÊN BKAP <i class="fa-solid fa-chevron-right"></i></li>
+              <li>TUYỂN DỤNG</li>
+              <li>LIÊN HỆ</li>
+            </ul>
+          </div>
+
+          <div class="menu-destop">
+            <ul>
+              <li>TRANG CHỦ</li>
+              <li>VỀ BÁCH KHOA-APTEACH</li>
+              <li>TUYỂN SINH</li>
               <li>TUYỂN DỤNG</li>
               <li>LIÊN HỆ</li>
             </ul>
@@ -49,8 +62,15 @@
             <li>Học Viên BKAP</li>
           </ul>
         </div>
+
+        <div class="marquee-text">
+          <div class="marquee">
+            Làm trước học sau, khác biệt dẫn đầu - Xét học bạ nhận văn bằng CNTT
+            Quốc tế - Cam kết việc làm lương từ 10 triệu đồng trở lên
+          </div>
+        </div>
       </div>
     </header>
   </body>
-  <script src="/js/demo.js"></script>
+  <script src="/ngovanvu.github.io/js/demo.js"></script>
 </html>
